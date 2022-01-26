@@ -1,5 +1,16 @@
 # Zoom Downloader
 
+## NEW
+
+1) Install node modules
+1) Open network tab in chrome dev tools for the zoom recording and find request for mp4 file
+2) Right click on it and copy node fetch request
+3) Paste after ```const response = await```
+4) Run node on index.js
+5) Downloaded video should be in downloads folder
+
+## OLD
+
 1) Install node modules
 1) Open network tab in chrome dev tools for the zoom recording and find request for mp4 file
 2) Right click on it and copy node fetch request
