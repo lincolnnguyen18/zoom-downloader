@@ -26,7 +26,7 @@ import fs from 'fs';
     "method": "GET"
   });
   // download video to file
-  const file = fs.createWriteStream('GMT20220125-224301_Recording_1920x1080.mp4');
+  const file = fs.createWriteStream('public/GMT20220125-224301_Recording_1920x1080.mp4');
   response.body.pipe(file);
   file.on('finish', () => {
     file.close();
